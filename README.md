@@ -1,3 +1,3 @@
 # pages
 
-playing around with HTML and js.
+playing around with HTML, CSS, js.
