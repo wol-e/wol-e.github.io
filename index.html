@@ -1,19 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+h1 {
+	color: gray;
+	text-align: center;
+}
+
+p {
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+button {
+	background-color: #66d9ff; /* Green */
+	border: none;
+	padding: 15px 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+}
+
+.gray {
+	color: #959595
+}
+
+#main {
+	color: #404040
+}
+</style>
 <script>
 function myFunction() {
-  document.getElementById("b").innerHTML = "What did I say?";
+	document.getElementById("b").innerHTML = "What did I say?";
 }
 </script>
 </head>
 <body>
 
-<h2>My secret Website</h2>
+<h1 class="gray">My secret Website!</h2>
 
-<p id="b">Nothing to see here.</p>
+<p id="main">Nothing to see here.</p>
 
-<button type="button" onclick="myFunction()">Don't click me</button>
+<div>
+	<!-- baisc js example-->
+	<button type="button" onclick="myFunction()">Don't click me</button>
+</div>
 
 </body>
 </html> 
